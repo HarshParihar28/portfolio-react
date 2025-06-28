@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.appcontainer {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: black;
+  color: white;
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.navitem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navitem:hover {
+  color: gray;
+}
+
+
+.maincontent {
+  flex: 1;
+  background-color: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.profileimg {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 24px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.description {
+  font-size: 18px;
+  color: #d1d5db;
+  max-width: 500px;
+  margin-bottom: 24px;
+}
+
+.socialicons {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+
+.socialicons {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socialicons:hover {
+  color: gray;
+}
